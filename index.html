@@ -1,0 +1,180 @@
+
+    <div style="text-align:center;margin-top:20px;">
+      <img src="character.jpg" style="width:220px;border-radius:20px;box-shadow:0 0 25px rgba(77,163,255,.6);">
+    </div>
+    <!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rachit Creates</title>
+<style>
+body{margin:0;font-family:Arial;background:#050816;color:#fff}
+.hero{padding:80px 20px;text-align:center}
+.hero h1{color:#4da3ff;font-size:56px}
+.gallery{column-count:4;column-gap:18px;padding:30px}
+.item{break-inside:avoid;margin-bottom:18px;position:relative;cursor:pointer}
+.item img{width:100%;border-radius:14px}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,.5);opacity:0;display:flex;align-items:end;padding:10px;border-radius:14px}
+.item:hover .overlay{opacity:1}
+.section{padding:20px 30px}
+.skill{display:inline-block;background:#10182b;padding:10px 16px;border-radius:20px;margin:5px}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.95)}
+.modal img{max-width:90%;max-height:80vh;display:block;margin:40px auto}
+.close{position:absolute;right:20px;top:10px;font-size:40px;cursor:pointer;color:white}
+@media(max-width:768px){.gallery{column-count:2}}
+@media(max-width:480px){.gallery{column-count:1}}
+</style></head><body style="background:#050816;">
+        <div style="background:radial-gradient(circle,#a855f755,#050816 70%);
+        padding:40px;box-shadow:0 0 80px #a855f7 inset;">
+    <div style="text-align:center;margin-bottom:20px;">
+      <img src="logo.png" style="max-width:420px;width:90%;">
+    </div>
+    
+<div class="hero"></div>
+
+    <div style="text-align:center;padding:10px 0 30px 0;">
+      <h2 style="color:#d8b4fe;letter-spacing:2px;">Graphic Designer & Brand Creator</h2>
+    </div>
+    
+    <div style="text-align:center;padding:20px;">
+      <button class="filter-btn">Ads</button>
+      <button class="filter-btn">Logos</button>
+      <button class="filter-btn">Apparel</button>
+      <button class="filter-btn">Business Cards</button>
+    </div>
+    <style>
+    .filter-btn{
+      margin:6px;padding:10px 18px;border:none;border-radius:25px;
+      background:#a855f7;color:white;cursor:pointer;
+      box-shadow:0 0 15px #a855f7;
+    }
+    </style>
+    <div class="section"><h2>Portfolio Gallery</h2><div class="gallery"><div class="item" onclick="openModal('assets/TRAVIS scott graph.png','TRAVIS scott graph')">
+<img src="assets/TRAVIS scott graph.png" alt="TRAVIS scott graph">
+<div class="overlay" style="display:none"><h3>TRAVIS scott graph</h3></div>
+</div><div class="item" onclick="openModal('assets/airpods pro max.png','airpods pro max')">
+<img src="assets/airpods pro max.png" alt="airpods pro max">
+<div class="overlay" style="display:none"><h3>airpods pro max</h3></div>
+</div><div class="item" onclick="openModal('assets/burger sale.png','burger sale')">
+<img src="assets/burger sale.png" alt="burger sale">
+<div class="overlay" style="display:none"><h3>burger sale</h3></div>
+</div><div class="item" onclick="openModal('assets/SAMPLE 03.png','SAMPLE 03')">
+<img src="assets/SAMPLE 03.png" alt="SAMPLE 03">
+<div class="overlay" style="display:none"><h3>SAMPLE 03</h3></div>
+</div><div class="item" onclick="openModal('assets/SAMPLE 2.png','SAMPLE 2')">
+<img src="assets/SAMPLE 2.png" alt="SAMPLE 2">
+<div class="overlay" style="display:none"><h3>SAMPLE 2</h3></div>
+</div><div class="item" onclick="openModal('assets/SAMPLE 3.png','SAMPLE 3')">
+<img src="assets/SAMPLE 3.png" alt="SAMPLE 3">
+<div class="overlay" style="display:none"><h3>SAMPLE 3</h3></div>
+</div><div class="item" onclick="openModal('assets/SAMPLE 4.png','SAMPLE 4')">
+<img src="assets/SAMPLE 4.png" alt="SAMPLE 4">
+<div class="overlay" style="display:none"><h3>SAMPLE 4</h3></div>
+</div><div class="item" onclick="openModal('assets/SAMPLE 5.png','SAMPLE 5')">
+<img src="assets/SAMPLE 5.png" alt="SAMPLE 5">
+<div class="overlay" style="display:none"><h3>SAMPLE 5</h3></div>
+</div><div class="item" onclick="openModal('assets/ELITE LOGO FOR IG.png','ELITE LOGO FOR IG')">
+<img src="assets/ELITE LOGO FOR IG.png" alt="ELITE LOGO FOR IG">
+<div class="overlay" style="display:none"><h3>ELITE LOGO FOR IG</h3></div>
+</div><div class="item" onclick="openModal('assets/LOOK FOR YOU (1).png','LOOK FOR YOU (1)')">
+<img src="assets/LOOK FOR YOU (1).png" alt="LOOK FOR YOU (1)">
+<div class="overlay" style="display:none"><h3>LOOK FOR YOU (1)</h3></div>
+</div><div class="item" onclick="openModal('assets/New Project (48).png','New Project (48)')">
+<img src="assets/New Project (48).png" alt="New Project (48)">
+<div class="overlay" style="display:none"><h3>New Project (48)</h3></div>
+</div><div class="item" onclick="openModal('assets/New Project (67).png','New Project (67)')">
+<img src="assets/New Project (67).png" alt="New Project (67)">
+<div class="overlay" style="display:none"><h3>New Project (67)</h3></div>
+</div><div class="item" onclick="openModal('assets/zeniz posters and accesories.png','zeniz posters and accesories')">
+<img src="assets/zeniz posters and accesories.png" alt="zeniz posters and accesories">
+<div class="overlay" style="display:none"><h3>zeniz posters and accesories</h3></div>
+</div><div class="item" onclick="openModal('assets/dyson b.png','dyson b')">
+<img src="assets/dyson b.png" alt="dyson b">
+<div class="overlay" style="display:none"><h3>dyson b</h3></div>
+</div><div class="item" onclick="openModal('assets/dyson f.png','dyson f')">
+<img src="assets/dyson f.png" alt="dyson f">
+<div class="overlay" style="display:none"><h3>dyson f</h3></div>
+</div><div class="item" onclick="openModal('assets/ELITE VC 2 PHASE (1).png','ELITE VC 2 PHASE (1)')">
+<img src="assets/ELITE VC 2 PHASE (1).png" alt="ELITE VC 2 PHASE (1)">
+<div class="overlay" style="display:none"><h3>ELITE VC 2 PHASE (1)</h3></div>
+</div><div class="item" onclick="openModal('assets/INK EMPIRE.png','INK EMPIRE')">
+<img src="assets/INK EMPIRE.png" alt="INK EMPIRE">
+<div class="overlay" style="display:none"><h3>INK EMPIRE</h3></div>
+</div><div class="item" onclick="openModal('assets/logoom.png','logoom')">
+<img src="assets/logoom.png" alt="logoom">
+<div class="overlay" style="display:none"><h3>logoom</h3></div>
+</div><div class="item" onclick="openModal('assets/New logo.png','New logo')">
+<img src="assets/New logo.png" alt="New logo">
+<div class="overlay" style="display:none"><h3>New logo</h3></div>
+</div><div class="item" onclick="openModal('assets/New Project (100).png','New Project (100)')">
+<img src="assets/New Project (100).png" alt="New Project (100)">
+<div class="overlay" style="display:none"><h3>New Project (100)</h3></div>
+</div><div class="item" onclick="openModal('assets/New Project (98).png','New Project (98)')">
+<img src="assets/New Project (98).png" alt="New Project (98)">
+<div class="overlay" style="display:none"><h3>New Project (98)</h3></div>
+</div><div class="item" onclick="openModal('assets/New Project (99).png','New Project (99)')">
+<img src="assets/New Project (99).png" alt="New Project (99)">
+<div class="overlay" style="display:none"><h3>New Project (99)</h3></div>
+</div><div class="item" onclick="openModal('assets/pupliplu.png','pupliplu')">
+<img src="assets/pupliplu.png" alt="pupliplu">
+<div class="overlay" style="display:none"><h3>pupliplu</h3></div>
+</div><div class="item" onclick="openModal('assets/puplipluuuuuuu.png','puplipluuuuuuu')">
+<img src="assets/puplipluuuuuuu.png" alt="puplipluuuuuuu">
+<div class="overlay" style="display:none"><h3>puplipluuuuuuu</h3></div>
+</div><div class="item" onclick="openModal('assets/VC ELITE BACKWARD WITH QR AND DETAILS 2.png','VC ELITE BACKWARD WITH QR AND DETAILS 2')">
+<img src="assets/VC ELITE BACKWARD WITH QR AND DETAILS 2.png" alt="VC ELITE BACKWARD WITH QR AND DETAILS 2">
+<div class="overlay" style="display:none"><h3>VC ELITE BACKWARD WITH QR AND DETAILS 2</h3></div>
+</div><div class="item" onclick="openModal('assets/ChatGPT Image May 23, 2026, 06_23_09 PM.png','ChatGPT Image May 23, 2026, 06_23_09 PM')">
+<img src="assets/ChatGPT Image May 23, 2026, 06_23_09 PM.png" alt="ChatGPT Image May 23, 2026, 06_23_09 PM">
+<div class="overlay" style="display:none"><h3>ChatGPT Image May 23, 2026, 06_23_09 PM</h3></div>
+</div></div></div>
+<div class="section"><h2>Skills</h2>
+<span class="skill">Branding</span>
+<span class="skill">Social Media Design</span>
+<span class="skill">Logo Design</span>
+<span class="skill">Apparel Design</span>
+</div>
+<div class="section"><h2>Contact</h2><p>📧 rachitcreates08@mail.com</p><p>📱 +91 9882973777</p></div>
+<div id="modal" class="modal"><span class="close" onclick="closeModal()">×</span><img id="mimg"></div>
+<script>
+function openModal(src,t){document.getElementById('modal').style.display='block';document.getElementById('mimg').src=src;}
+function closeModal(){document.getElementById('modal').style.display='none';}
+</script></div>
+    <script>
+    document.querySelectorAll('.item').forEach(card=>{
+      card.setAttribute('title','Click to view project details');
+    });
+    </script>
+    
+    <style>
+    body{
+      background:#12081f !important;
+      color:white;
+    }
+    .floating-character, img[src*="character"]{
+      animation: floaty 4s ease-in-out infinite;
+    }
+    @keyframes floaty{
+      0%{transform:translateY(0px);}
+      50%{transform:translateY(-15px);}
+      100%{transform:translateY(0px);}
+    }
+    </style>
+
+    <div style="text-align:center;padding:40px 20px;">
+      <h2 style="color:#c084fc;">Connect With Me</h2>
+      <p>
+        Instagram: @rachitcreates
+      </p>
+    </div>
+    
+    <div style="text-align:center;padding:30px 20px;">
+      <h2 style="color:#d8b4fe;">Connect With Me</h2>
+      <p><a href="https://instagram.com/rachitcreates" target="_blank" style="color:#d8b4fe;text-decoration:none;">
+      📷 Instagram: @rachitcreates</a></p>
+      <p>📧 rachitcreates08@mail.com</p>
+      <p>📱 +91 9882973777</p>
+      <a href="https://instagram.com/rachitcreates" target="_blank"
+      style="display:inline-block;margin-top:15px;padding:12px 24px;background:#a855f7;color:white;border-radius:30px;text-decoration:none;">
+      Contact Me
+      </a>
+    </div>
+    </body></html>
